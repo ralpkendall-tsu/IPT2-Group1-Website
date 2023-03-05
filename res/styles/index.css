@@ -79,7 +79,7 @@
     color: white;
     margin-top: 50px;
     margin-bottom: 10px;
-    pointer-events: none;
+    
     user-select: none;
 
 }
@@ -88,7 +88,13 @@
     border-radius: 50%;
     margin-left: -85px;
     border: green solid 3px;
+    transition: 0.5s;
     
+    
+}
+.prof:hover{
+    border: rgb(3, 250, 3) solid 3px;
+
 }
 
 .section-2-box{
@@ -104,8 +110,7 @@
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 100px;
-   
-    
+    transition: 1s;
  }
  .Ralp{
     margin-top: -250px;
@@ -149,10 +154,12 @@
     left: 610px;
     max-width: 200px;
     background: none;
-
-}
- 
+} 
  .section-2 h1{
     margin-bottom: 20px;
    
+ }
+ .section-2-box span:hover{
+    color: rgb(0, 255, 0);
+    transition: 2s;
  }
