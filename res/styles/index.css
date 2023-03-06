@@ -122,3 +122,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+.section4-Section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px;
+}
