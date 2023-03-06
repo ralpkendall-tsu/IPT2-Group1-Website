@@ -80,3 +80,45 @@
     flex-direction: column;
     background-color: #FFFFFF;
 }
+.section4-transitionImage{
+    width: 100%;
+    height: 1085.65px;
+    background-image: url(/res/images/section-4-hero-image.png);
+
+    position: relative;
+}
+.transition {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #13161B, rgba(0, 0, 0, 0));
+}
+
+.section4-h6 {
+    margin-bottom: 100px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.section4-h2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    letter-spacing: 0.03em;
+    background: radial-gradient(50% 50% at 50% 50%, #A762FF 33.2%, #89DF8D 78.61%);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
