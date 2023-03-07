@@ -70,18 +70,16 @@
     color: white;
     text-align: right;
 }
-
 .keyword {
     color: #A5F7A8;
 }
-
 .section-2{
     color: white;
     margin-top: 50px;
     margin-bottom: 10px;
-    
     user-select: none;
-
+    align-items: center;
+    margin: auto;
 }
 .prof{
     position: absolute;
@@ -89,15 +87,15 @@
     margin-left: -85px;
     border: green solid 3px;
     transition: 0.5s;
-    
-    
 }
 .prof:hover{
     border: rgb(3, 250, 3) solid 3px;
-
 }
-
+.section-2-circle{
+    margin-left: 180px;
+}
 .section-2-box{
+   
     font-size: 35px;
     border: white solid 3px;
     border-radius: 5px;
@@ -118,32 +116,26 @@
     left: 570px;
     top: 300px;
  }
-
  .Arman {
     position: relative;
     top: 330px;
     left: 150px;
  }
- 
  .Hazel{
     position: relative;
     top: 136px;
     left: 1000px;
-    
  }
- 
  .John{
     position: relative;
     top: -150px;
     left: 150px;
  }
- 
  .Jesusa{
     position: relative;
     left: 1010px;
     bottom: 330px;
  }  
- 
 .Patricia{
     position: relative;
     top: -400px;
@@ -156,8 +148,7 @@
     background: none;
 } 
  .section-2 h1{
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px; 
  }
  .section-2-box span:hover{
     color: rgb(0, 255, 0);
