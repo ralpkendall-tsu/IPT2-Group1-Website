@@ -86,10 +86,10 @@
 
 .sec3T{
     position: absolute;
-    width: 613px;
+    width: 615px;
     height: 58px;
     top: 2296px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
@@ -102,14 +102,14 @@
 }
 
 .rectangle{
-    position: absolute; left: 600px; top: 2327px;
+    position: absolute; left: 660px; top: 2324.5px;
     width: 150px;
     height: 6px;
     background: #AF7AF2;
 }
 
 .triangle{
-    position: absolute; left: 735px; top: 2315px;
+    position: absolute; left: 810px; top: 2313px;
 	width: 0;
 	height: 0;
 	border-top: 15px solid transparent;
@@ -177,7 +177,7 @@
 }
 
 .titles{
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans";
     font-weight: 800;
     font-size: 22px;
     line-height: 30px;
@@ -209,7 +209,7 @@
 }
 
 .content{
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans";
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
