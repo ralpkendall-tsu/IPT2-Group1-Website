@@ -159,3 +159,65 @@ body {
     color: rgb(0, 255, 0);
     transition: 2s;
  }
+ 
+ .section-3 {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.section-3-header-title {
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 48px;
+    background: radial-gradient(circle, rgba(165,247,168,1) 20%, rgba(175,122,242,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:109px;
+}
+
+.section-3-header-title img {
+    margin-left: 64px;
+}
+
+.section-3-tutorials-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-tutorial {
+    width: 416px;
+    background-color: #13161B;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, .7);
+}
+
+.section-3-tutorial-img {
+    margin-top: 30px;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 35px;
+}
+
+.section-3-tutorial-img img {
+    width: 350px;
+}
+
+.section-3-tutorial-title {
+    font-family: "NotoSans";
+    font-weight: 800;
+    font-size: 22px;
+    color: #A5F7A8;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 16px;
+}
+
+.section-3-tutorial-content {
+    font-family: "NotoSans";
+    font-size: 16px;
+    color: white;
+    margin-left: 33px;
+    margin-right: 33px;
+    background: #13161B;
+}
