@@ -221,3 +221,106 @@ body {
     margin-right: 33px;
     background: #13161B;
 }
+
+.section-4{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+.section4-transitionImage{
+    width: 100%;
+    height: 1085.65px;
+    background-image: url(/res/images/section-4-hero-image.png);
+
+    position: relative;
+}
+.transition {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #13161B, transparent 40%);
+}
+
+.section4-h6 {
+    margin-bottom: 100px;
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.section4-h2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    letter-spacing: 0.03em;
+    background: radial-gradient(50% 50% at 50% 50%, #A762FF 33.2%, #89DF8D 78.61%);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.section4-Section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px;
+}.Title-right{
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    letter-spacing: 0.03em;
+    color: #701CDC;
+}
+.section4-content-right p {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.section4-image img {
+    width: 815px;
+}
+.section4-keywords {
+    color: #701CDC;
+}
+#secondContent {
+    order: -1;
+}
+.Title-left{
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    letter-spacing: 0.03em;
+    color: #701CDC;
+}
+.section4-content-left p {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
