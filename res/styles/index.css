@@ -75,167 +75,64 @@
     color: #A5F7A8;
 }
 
-.section-3{
-    position: absolute;
-    width: 1640px;
-    height: 818px;
-    left: 140px;
-    top: 2296px;
-
+.section-3 {
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
-.sec3T{
-    position: absolute;
-    width: 615px;
-    height: 58px;
-    top: 2296px;
+.section-3-header-title {
     font-family: "Inter";
-    font-weight: 700;
+    font-weight: bold;
     font-size: 48px;
-    line-height: 58px;
-    letter-spacing: 0.03em;
-    background: radial-gradient(50% 50% at 50% 50%, #A5F7A8 22.09%, #AF7AF2 100%);
+    background: radial-gradient(circle, rgba(165,247,168,1) 20%, rgba(175,122,242,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    margin-bottom:109px;
 }
 
-.rectangle{
-    position: absolute; left: 660px; top: 2324.5px;
-    width: 150px;
-    height: 6px;
-    background: #AF7AF2;
+.section-3-header-title img {
+    margin-left: 64px;
 }
 
-.triangle{
-    position: absolute; left: 810px; top: 2313px;
-	width: 0;
-	height: 0;
-	border-top: 15px solid transparent;
-	border-left: 25px solid #AF7AF2;
-	border-bottom: 15px solid transparent;
-  }
+.section-3-tutorials-container {
+    display: flex;
+    justify-content: space-between;
+}
 
-.S3B1{    
-    position: absolute;
+.section-3-tutorial {
     width: 416px;
-    height: 651px;
-    top: 2463px;
-    background: #13161B;
-    box-shadow: 0px 0px 100px 7px rgba(0, 0, 0, 0.5);
+    background-color: #13161B;
+    border: none;
     border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, .7);
 }
 
-.S3B2{    
-    position: absolute;
-    width: 416px;
-    height: 651px;
-    left: 612px;
-    top: 2463px;
-    background: #13161B;
-    box-shadow: 0px 0px 100px 7px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-}
-    
-.S3B3{    
-    position: absolute;
-    width: 416px;
-    height: 651px;
-    left: 1224px;
-    top: 2463px;
-    background: #13161B;
-    box-shadow: 0px 0px 100px 7px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+.section-3-tutorial-img {
+    margin-top: 30px;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 35px;
 }
 
-.S3P1{
-    position: absolute;
+.section-3-tutorial-img img {
     width: 350px;
-    height: 350px;
-    left: 35px;
-    top: 2493px;
-    border-radius: 10px;
 }
 
-.S3P2{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    left: 644px;
-    top: 2493px;
-    border-radius: 10px;
-}
-
-.S3P3{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    left: 1258px;
-    top: 2493px;
-    border-radius: 10px;
-}
-
-.titles{
+.section-3-tutorial-title {
     font-family: "NotoSans";
     font-weight: 800;
     font-size: 22px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
     color: #A5F7A8;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 16px;
 }
 
-.V1{
-    position: absolute;
-    width: 350px;
-    height: 49px;
-    left: 35px;
-    top: 2878px;
-}
-
-.V2{    
-    position: absolute;
-    width: 350px;
-    height: 49px;
-    left: 644px;
-    top: 2878px;}
-
-.V3{
-    position: absolute;
-    width: 350px;
-    height: 49px;
-    left: 1258px;
-    top: 2878px;
-}
-
-.content{
+.section-3-tutorial-content {
     font-family: "NotoSans";
-    font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: white;
+    margin-left: 33px;
+    margin-right: 33px;
+    background: #13161B;
 }
-
-.V1P{
-    position: absolute;
-    width: 350px;
-    height: 154px;
-    left: 35px;
-    top: 2960px;
-}
-
-.V2P{
-    position: absolute;
-    width: 350px;
-    height: 154px;
-    left: 644px;
-    top: 2960px;
-}
-
-.V3P{    
-    position: absolute;
-    width: 350px;
-    height: 154px;
-    left: 1258px;
-    top: 2960px;}
