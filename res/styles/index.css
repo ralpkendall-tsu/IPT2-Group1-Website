@@ -1,16 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
-body{
+
+body {
     background-color: #13161B;
     background-image: url("../images/bg-elements-1.png");
     background-repeat: repeat;
 }
+
 .section-1 {
     display: flex;
     margin-left: 31px;
     margin-right: 160px;
+    margin-bottom: 320px;
 }
 
 .section1-left-side {
@@ -71,9 +75,151 @@ body{
     color: white;
     text-align: right;
 }
-
 .keyword {
     color: #A5F7A8;
+}
+.section-2{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    user-select: none;
+    align-items: center;
+    margin: auto;
+}
+.prof{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -85px;
+    border: green solid 3px;
+    transition: 0.5s;
+}
+.prof:hover{
+    border: rgb(3, 250, 3) solid 3px;
+}
+.section-2-circle{
+    margin-left: 180px;
+}
+.section-2-box{
+   
+    font-size: 35px;
+    border: white solid 3px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 100px;
+    transition: 1s;
+ }
+ .Ralp{
+    margin-top: -250px;
+    position: relative;
+    left: 570px;
+    top: 300px;
+ }
+ .Arman {
+    position: relative;
+    top: 330px;
+    left: 150px;
+ }
+ .Hazel{
+    position: relative;
+    top: 136px;
+    left: 1000px;
+ }
+ .John{
+    position: relative;
+    top: -150px;
+    left: 150px;
+ }
+ .Jesusa{
+    position: relative;
+    left: 1010px;
+    bottom: 330px;
+ }  
+.Patricia{
+    position: relative;
+    top: -400px;
+    left: 570px;
+}
+.gitlogo{
+    position: relative;
+    left: 610px;
+    max-width: 200px;
+    background: none;
+} 
+ .section-2 h1{
+    margin-bottom: 20px; 
+ }
+ .section-2-box span:hover{
+    color: rgb(0, 255, 0);
+    transition: 2s;
+ }
+ 
+ .section-3 {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.section-3-header-title {
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 48px;
+    background: radial-gradient(circle, rgba(165,247,168,1) 20%, rgba(175,122,242,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:109px;
+}
+
+.section-3-header-title img {
+    margin-left: 64px;
+}
+
+.section-3-tutorials-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-tutorial {
+    width: 416px;
+    background-color: #13161B;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, .7);
+}
+
+.section-3-tutorial-img {
+    margin-top: 30px;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 35px;
+}
+
+.section-3-tutorial-img img {
+    width: 350px;
+}
+
+.section-3-tutorial-title {
+    font-family: "NotoSans";
+    font-weight: 800;
+    font-size: 22px;
+    color: #A5F7A8;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 16px;
+}
+
+.section-3-tutorial-content {
+    font-family: "NotoSans";
+    font-size: 16px;
+    color: white;
+    margin-left: 33px;
+    margin-right: 33px;
+    background: #13161B;
 }
 
 .section-4{
